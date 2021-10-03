@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { StyleSheet, Text } from 'react-native';
 
 
 class Count extends Component {
@@ -10,8 +11,18 @@ class Count extends Component {
     }
 
     render() {
+        return(
+            <Text style={styles.counterText}>
 
+            </Text>
+        )
     }
 }
+
+const styles = StyleSheet.create({
+    counterText: {
+      fontSize: 30
+    }
+});
 
 export default Count;
