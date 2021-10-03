@@ -1,15 +1,14 @@
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { StyleSheet, Text, TouchableOpacity, View } from 'react-native';
+import Button from './components/button';
 
 export default function App() {
   return (
     <View style={styles.container}>
       <Text>Hello World</Text>
       <StatusBar style="auto" />
-      <TouchableOpacity style={styles.button}>
-        <Text style={styles.buttonText}>Press Me</Text>
-      </TouchableOpacity>
+      <Button />
     </View>
   );
 }
