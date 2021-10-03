@@ -8,7 +8,9 @@ export default function App() {
     <View style={styles.container}>
       <Text>Hello World</Text>
       <StatusBar style="auto" />
-      <Button />
+      <Button buttonName="Press Me"/>
+      <Button buttonName="Press Me"/>
+      <Button buttonName="Press Me"/>
     </View>
   );
 }
