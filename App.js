@@ -7,8 +7,8 @@ export default function App() {
     <View style={styles.container}>
       <Text>Hello World</Text>
       <StatusBar style="auto" />
-      <TouchableOpacity>
-        <Text>Press Me</Text>
+      <TouchableOpacity style={styles.button}>
+        <Text style={styles.buttonText}>Press Me</Text>
       </TouchableOpacity>
     </View>
   );
@@ -21,4 +21,10 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
   },
+  button: {
+    backgroundColor: '#000000',
+  },
+  buttonText: {
+    color: '#FFFFFF'
+  }
 });
