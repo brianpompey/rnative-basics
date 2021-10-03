@@ -47,8 +47,8 @@ class Count extends Component {
                     {this.state.count}
                 </Text>
                 <Button buttonName="Up" methodName={this.upCount}/>
-                <Button buttonName="Down"/>
-                <Button buttonName="Reset"/>
+                <Button buttonName="Down" methodName={this.downCount}/>
+                <Button buttonName="Reset" methodName={this.resetCount}/>
             </View>
         )
     }
