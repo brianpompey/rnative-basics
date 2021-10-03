@@ -6,7 +6,7 @@ import Button from './components/button';
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Hello World</Text>
+      <Text style={styles.headingText}>Welcome To The Counter</Text>
       <StatusBar style="auto" />
       <Button buttonName="Press Me"/>
       <Button buttonName="Press Me"/>
@@ -22,10 +22,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
   },
-  button: {
-    backgroundColor: '#000000',
-  },
-  buttonText: {
-    color: '#FFFFFF'
+  headingText: {
+    fontSize: 30
   }
 });
