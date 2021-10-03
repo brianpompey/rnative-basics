@@ -13,7 +13,7 @@ class Count extends Component {
     render() {
         return(
             <Text style={styles.counterText}>
-
+                {this.state.count}
             </Text>
         )
     }
