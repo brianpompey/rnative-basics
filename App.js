@@ -10,9 +10,6 @@ export default function App() {
       <Text style={styles.headingText}>Welcome To The Counter</Text>
       <StatusBar style="auto" />
       <Count />
-      <Button buttonName="Press Me"/>
-      <Button buttonName="Press Me"/>
-      <Button buttonName="Press Me"/>
     </View>
   );
 }

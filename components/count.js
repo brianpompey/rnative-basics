@@ -1,5 +1,6 @@
 import React, { Component } from "react";
-import { StyleSheet, Text } from 'react-native';
+import { StyleSheet, Text, View } from 'react-native';
+import Button from "./button";
 
 
 class Count extends Component {
@@ -12,9 +13,14 @@ class Count extends Component {
 
     render() {
         return(
-            <Text style={styles.counterText}>
-                {this.state.count}
-            </Text>
+            <View>
+                <Text style={styles.counterText}>
+                    {this.state.count}
+                </Text>
+                <Button buttonName="Up"/>
+                <Button buttonName="Down"/>
+                <Button buttonName="Reset"/>
+            </View>
         )
     }
 }
